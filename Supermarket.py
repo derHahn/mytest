@@ -2,4 +2,5 @@ import numpy as np
 import pandas as pd
 
 class Supermarket:
-    pass
+    def __init__(self):
+        self.customers = []
